@@ -78,7 +78,8 @@ public class MediaPlayerDemo_Video extends Activity implements OnBufferingUpdate
 				/*
 				 * TODO: Set the path variable to a local media file path.
 				 */
-				path = "";
+//				path = "/sdcard/lmf/test.mp4";
+				path="/sdcard/lmf/ifeelyou.rmvb";
 				if (path == "") {
 					// Tell the user to provide a media file URL.
 					Toast.makeText(MediaPlayerDemo_Video.this, "Please edit MediaPlayerDemo_Video Activity, " + "and set the path variable to your media file path." + " Your media file must be stored on sdcard.", Toast.LENGTH_LONG).show();
@@ -95,7 +96,7 @@ public class MediaPlayerDemo_Video extends Activity implements OnBufferingUpdate
 				 * reasonably interleaved.
 				 * 
 				 */
-				path = "";
+				path = "http://vod2.truemv.com/201508/kr/mucMB01CkJ8p5x0uIg17jTFRAXEp4BUb.flv&autoHideControlBar=false&streamType=recorded&autoPlay=true";
 				if (path == "") {
 					// Tell the user to provide a media file URL.
 					Toast.makeText(MediaPlayerDemo_Video.this, "Please edit MediaPlayerDemo_Video Activity," + " and set the path variable to your media file URL.", Toast.LENGTH_LONG).show();
